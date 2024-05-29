@@ -4,6 +4,7 @@ import AboutUsPage from './pages/AboutUsPage.jsx';
 import Footer from './components/Footer.jsx';
 import Navbar from './components/Navbar.jsx';
 import ScrollToTop from './pages/ScrollToTop.jsx';
+import Sellon from './pages/Sellon.jsx';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} scroll="top"/>
+          <Route path="/sellon" element={<Sellon />} scroll="top"/>
         </Routes>
         <Footer />
         <ScrollToTop />
